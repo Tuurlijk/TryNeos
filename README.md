@@ -32,6 +32,14 @@ You can login as user `admin` with the password `supersecret`.
 ## How do I get onto the box?
 You can login by doing a `vagrant ssh`. That user has full sudo privileges. Or you can `ssh vagrant@local.neos.io` using password `vagrant`.
 
+To add your public ssh key to the authorized_keys file of the vagrant user, you can execute the following command:
+
+```bash
+ cat ~/.ssh/id_rsa.pub | ssh vagrant@local.neos.io 'cat >> .ssh/authorized_keys'
+```
+
+Now you will be able to get into the box as user vagrant without supplying a password.
+
 ## MailCatcher
 [MailCatcher](http://mailcatcher.me/) runs a super simple SMTP server which catches any message sent to it to display in a web interface. This makes it easy to test forms without actually sending mail to the 'real' mail address. Set your favourite app to deliver to smtp://127.0.0.1:1025 instead of your default SMTP server, then check out [http://local.neos.io:1080](http://local.neos.io:1080) to see the mail that's arrived so far.
 
