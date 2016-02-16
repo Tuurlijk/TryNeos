@@ -3,8 +3,8 @@ A Vagrant box to try out the most recent NEOS releases.
 
 Just run `vagrant up` and visit:
 
-* [http://1.2.13.local.neos.io/neos/](http://1.2.13.local.neos.io/neos/)
-* [http://2.0.4.local.neos.io/neos/](http://2.0.4.local.neos.io/neos/)
+* [http://2.0.6.local.neos.io/neos/](http://2.0.6.local.neos.io/neos/)
+* [http://2.1.2.local.neos.io/neos/](http://2.1.2.local.neos.io/neos/)
 
 [![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=Tuurlijk&url=https://github.com/Tuurlijk/TryNeos&title=TryNeos&language=Ansible&tags=github&category=software)
 
@@ -24,8 +24,8 @@ vagrant up
 
 3). Now you can visit:
 
-* [http://1.2.13.local.neos.io/neos/](http://1.2.13.local.neos.io/neos/)
-* [http://2.0.4.local.neos.io/neos/](http://2.0.4.local.neos.io/neos/)
+* [http://2.0.6.local.neos.io/neos/](http://2.0.6.local.neos.io/neos/)
+* [http://2.1.2.local.neos.io/neos/](http://2.1.2.local.neos.io/neos/)
 
 You can login as user `admin` with the password `supersecret`.
 
@@ -48,7 +48,7 @@ Now you will be able to get into the box as user vagrant without supplying a pas
 This box needs internet connectivity to resolve the local.neos.io domain name to the IP of the box. If you are not connected to the Internet you will need to add the following entries to your hosts file:
 
 * 192.168.144.120 1.2.0.local.neos.io
-* 192.168.144.120 2.0.4.local.neos.io
+* 192.168.144.120 2.1.2.local.neos.io
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests and examples for any new or changed functionality.

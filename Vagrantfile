@@ -76,8 +76,8 @@ echo "============================================================="
 echo "All done!"
 echo ""
 echo "You can now try one of these sites:"
-echo "- http://1.2.13.local.neos.io/neos/"
-echo "- http://2.0.4.local.neos.io/neos/"
+echo "- http://2.0.6.local.neos.io/neos/"
+echo "- http://2.1.2.local.neos.io/neos/"
 echo "- http://local.neos.io:1080/ <- mailcatcher"
 echo ""
 echo "Username: admin"
@@ -93,8 +93,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 	config.vm.boot_timeout = 180
 # If you have no Internet access (can not resolve *.local.neos.io), you can use host aliases:
 # 	config.hostsupdater.aliases = [
-# 		'1.2.13.local.neos.io',
-# 		'2.0.4.local.neos.io'
+# 		'2.0.6.local.neos.io',
+# 		'2.1.2.local.neos.io'
 # 		]
 
 	# Network
