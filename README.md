@@ -47,7 +47,7 @@ Now you will be able to get into the box as user vagrant without supplying a pas
 
 This box needs internet connectivity to resolve the local.neos.io domain name to the IP of the box. If you are not connected to the Internet you will need to add the following entries to your hosts file:
 
-* 192.168.144.120 1.2.0.local.neos.io
+* 192.168.144.120 2.0.6.local.neos.io
 * 192.168.144.120 2.1.2.local.neos.io
 
 ## Contributing
